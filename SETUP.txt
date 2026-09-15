@@ -1,0 +1,15 @@
+1. Open the root folder in IntelliJ.
+2. Make sure Project SDK = Java 21.
+3. Let IntelliJ import the Maven multi-module project.
+4. Start Docker Desktop.
+5. Run: docker compose up -d
+6. Run the Spring Boot applications in this order:
+   ServiceRegistryApplication
+   ConfigServerApplication
+   ProductServiceApplication
+   InventoryServiceApplication
+   OrderServiceApplication
+   PaymentServiceApplication
+   NotificationServiceApplication
+   ApiGatewayApplication
+7. Use the API examples in README.md.
